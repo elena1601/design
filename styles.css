@@ -1,0 +1,280 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 40px;
+}
+
+.title::after {
+  content: '';
+  background-image: url(rainbow.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+}
+
+.text_styles h1 {
+  font-size: 40px;
+  font-weight: 700px;
+  text-align: left;
+  background-image: none;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 500px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+section {
+  border: 2px solid grey;
+  margin: 15px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #C1C1C1;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid #C1C1C1;
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.font .bold {
+  font-weight: 700;
+}
+
+.font .extralight200 {
+  font-weight: 200;
+}
+
+.font .roboto_condesed {
+  font-family: 'Roboto Condensed';
+  display: inline-block;
+  margin: 20px;
+}
+
+.font .source_sans3 {
+  font-family: 'Source Sans 3';
+  display: inline-block;
+  margin: 20px;
+}
+
+.font .poppins {
+  font-family: Poppins;
+  display: inline-block;
+  margin: 20px;
+}
+
+.colors {
+  overflow: hidden;
+}
+
+.colors .design1 li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  vertical-align: top;
+  height: 70px;
+}
+
+.colors .design2 li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  vertical-align: top;
+  height: 70px;
+}
+
+.colors .design3 li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  vertical-align: top;
+  height: 70px;
+}
+
+.mint {
+  background-color: #81BBB3;
+  padding: 10px;
+  border: 2px solid #81BBB3;
+  width: 20%;
+}
+
+.white {
+  background-color: #FFF;
+  padding: 10px;
+  border: 2px solid #F5F5F5;
+  width: 20%;
+}
+
+.black {
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+  border: 2px solid black;
+  width: 20%;
+}
+
+.grey {
+  background-color: #C1C1C1;
+  padding: 10px;
+  border: 2px solid #C1C1C1;
+  width: 20%;
+}
+
+.red1 {
+  background-color: #9D231F;
+  padding: 10px;
+  border: 2px solid #9D231F;
+  width: 20%;
+}
+
+.red2 {
+  background-color: #A83620;
+  padding: 10px;
+  border: 2px solid #A83620;
+  width: 20%;
+}
+
+.orange {
+  background-color: #EB6C23;
+  padding: 10px;
+  border: 2px solid #EB6C23;
+  width: 20%;
+}
+
+.lightyellow {
+  background-color: #F5EEC2;
+  padding: 10px;
+  border: 2px solid #F5EEC2;
+  width: 20%;
+}
+
+.beige {
+  background-color: #EBE2C5;
+  padding: 10px;
+  border: 2px solid #EBE2C5;
+  width: 20%;
+}
+
+.hempgreen {
+  background-color: #416A59;
+  padding: 10px;
+  border: 2px solid #416A59;
+  width: 20%;
+}
+
+.marineblue {
+  color: white;
+  background-color: #39395F;
+  padding: 10px;
+  border: 2px solid #39395F;
+  width: 20%;
+}
+
+.green {
+  background-color: #73A24E;
+  padding: 10px;
+  border: 2px solid #73A24E;
+  width: 20%;
+}
+
+.lightgreen {
+  background-color: #A9C25D;
+  padding: 10px;
+  border: 2px solid #A9C25D;
+  width: 20%;
+}
+
+button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.transit {
+  background-color: #73A24E;
+  transition: 0.3s;
+}
+
+.transit:hover {
+  background-color: #416A59;
+  color: #EBE2C5;
+  font-size: large;
+}
+
+.transit:active {
+  background-color: #416A59;
+  color: #EBE2C5;
+  font-size: larger;
+}
+
+.dimensional {
+  padding: 15px;
+  border: 1px solid #EB6C23;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+  font-weight: 600;
+}
+
+.dimensional:active {
+  margin-top: 5px;
+  color: #9D231F;
+  box-shadow: 0px 0px;
+}
+
+.normal:active {
+  background-color: #39395F;
+  color: #EBE2C5;
+}
